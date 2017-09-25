@@ -5,7 +5,12 @@ export default class PlayList extends Component {
 	render() {
 		return (
 			<div className="playlist col-5">
-				<button className="btn btn-success" name="update" type="button">
+				<button
+					className="btn btn-success"
+					onClick={this.props.update}
+					name="update"
+					type="button"
+				>
 					Update
 				</button>
 				{this.props.songs.map((song, ind) => {

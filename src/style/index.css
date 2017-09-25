@@ -2,5 +2,9 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background-color: rgb(102, 102, 102);
+	background-color: #e67e22;
+}
+
+h1 {
+	color: #ecf0f1;
 }

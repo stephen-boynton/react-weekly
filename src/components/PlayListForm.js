@@ -4,7 +4,7 @@ export default class PlayListForm extends Component {
 	render() {
 		return (
 			<div className="playlist-form col-md-3 col-sm-12">
-				<form>
+				<form onSubmit={this.props.add}>
 					<div className="form-group">
 						<label htmlFor="name">Username</label>
 						<input
